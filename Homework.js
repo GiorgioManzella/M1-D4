@@ -224,6 +224,8 @@ console.log(result)
  Write a piece of code for deleting only even entries from an array.
 */
 
+print('EX-X-5')
+
 /* WRITE YOUR ANSWER HERE */
 
 /* EXTRA 6
