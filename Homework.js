@@ -216,7 +216,7 @@ console.log(r)
 print('Ex-X-4')
 
 let eve= [1,4,7,23]
-let result = eve.filter((i)=>i%2===1)
+let result = eve.filter((i)=>i%2===0)
 console.log(result)
 
 
@@ -226,7 +226,13 @@ console.log(result)
 
 print('EX-X-5')
 
-/* WRITE YOUR ANSWER HERE */
+eve= [1,4,7,23]
+
+for ( let i =0; i < eve.length; i++){
+    
+}
+
+
 
 /* EXTRA 6
  Write a piece of code for removing all the vowels from a string.
