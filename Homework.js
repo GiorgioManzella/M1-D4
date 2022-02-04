@@ -174,7 +174,9 @@ console.log (carsForSale)
 */
 console.log ('-----------------------EXERCISE N 13--------------------')
 
- 
+for (let I = 0; I < carsForSale.length; I++) {
+    console.log(carsForSale[I])
+}
 
 /* WHEN YOU ARE FINISHED
  Upload the .js file on Eduflow before 5PM CET. In the next days we'll also learn how to use GIT!
@@ -229,30 +231,54 @@ print('EX-X-5')
 eve= [1,4,7,23]
 
 for ( let i =0; i < eve.length; i++){
-    
+    if (eve[i] % 2 === 0) {
+        eve.pop[i]
+    } 
 }
-
-
-
 /* EXTRA 6
  Write a piece of code for removing all the vowels from a string.
 */
+print('EX-X-6')
 
-/* WRITE YOUR ANSWER HERE */
+let string = 'I need to work'
+let arrayLetter = string.split('') // need to have a container where to put the split result!!                    //BUG
+
+for (let index = 0; index <= arrayLetter.length; index++){
+    if (arrayLetter[index] === 'a' ) 
+     arrayLetter.splice(index,1);
+     else if  (arrayLetter[index] === 'e' ) 
+     arrayLetter.splice(index,1);
+     else if (arrayLetter[index] === 'i' ) 
+     arrayLetter.splice(index,1);
+     else if (arrayLetter[index] === 'o' ) 
+     arrayLetter.splice(index,1);
+     else if (arrayLetter[index] === 'u' ) 
+     arrayLetter.splice(index,1);
+
+     }
+console.log(arrayLetter)
+
 
 /* EXTRA 7
  Write a piece of code for increasing all the numerical values in a array by 1.
 */
-
-/* WRITE YOUR ANSWER HERE */
-
+print('EX-X-7')
+let numberList = [1,2,3,4,5]
+for (i = 0; i < numberList.length; i++) {
+    numberList[i] ++
+}
+console.log(numberList)
 /* EXTRA 8 
  Replace all the strings contained in an array with their length.
  es.: ["strive", "is", "great"] => [6, 2, 5]
 */
 
-/* WRITE YOUR ANSWER HERE */
-
+print('EX-X-8')
+let wordList = ["strike", "ball", "hospital"]
+for (i=0 ; i < wordList.length; i++){
+    wordList[i] = wordList[i].length
+    console.log(wordList)
+}
 
 console.log ('---------------------------------')
 
