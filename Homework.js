@@ -277,7 +277,7 @@ print('EX-X-8')
 let wordList = ["strike", "ball", "hospital"]
 for (i=0 ; i < wordList.length; i++){
     wordList[i] = wordList[i].length
-    console.log(wordList)
+    console.log(wordList[i])
 }
 
 console.log ('---------------------------------')
